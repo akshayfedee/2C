@@ -1,4 +1,7 @@
-#This script appears to be a simple implementation of a command and control (C2) server using the ICMP protocol. When run, the script listens for incoming ICMP packets, decodes the payload, runs the command specified in the payload, and then sends an ICMP reply with the result of the command as the payload. This type of C2 server is commonly used by attackers to remotely control compromised devices.
+#This script is a simple implementation of a command and control (C2) server using the ICMP protocol. 
+#When run, the script listens for incoming ICMP packets, decodes the payload, runs the command specified in the payload, and then sends an ICMP reply with the result of the command as the payload. 
+#This type of C2 server is commonly used by attackers to remotely control compromised devices.
+#The allowed commands can be customized and weaponized as needed
 
 
 
